@@ -1,0 +1,23 @@
+{
+  "name": "@css-react-2023-demo/typed-scss-modules",
+  "licence": "MIT",
+  "scripts": {
+    "dev": "concurrently 'pnpm dev:web' 'pnpm dev:css'",
+    "dev:web": "next dev",
+    "dev:css": "hcm src/**/*.module.scss -w",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.28",
+    "happy-css-modules": "^1.0.1",
+    "postcss": "^8.4.21",
+    "sass": "^1.59.2",
+    "typescript": "4.9.5"
+  }
+}
