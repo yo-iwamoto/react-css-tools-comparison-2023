@@ -1,5 +1,5 @@
 {
-  "name": "@css-react-2023-demo/typed-scss-modules",
+  "name": "@css-react-2023-demo/happy-css-modules",
   "licence": "MIT",
   "scripts": {
     "dev": "concurrently 'pnpm dev:web' 'pnpm dev:css'",
