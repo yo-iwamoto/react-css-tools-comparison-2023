@@ -1,0 +1,7 @@
+{
+  "name": "css-react-2023-demo",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
