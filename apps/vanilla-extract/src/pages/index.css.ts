@@ -1,7 +1,8 @@
 import { style } from '@vanilla-extract/css';
 
-export const title = style({
-  fontWeight: 'bold',
-  fontSize: '20px',
-  fontStyle: 'italic',
-});
+export const title = (fontStyle: string) =>
+  style({
+    fontWeight: 'bold',
+    fontSize: '20px',
+    fontStyle: fontStyle,
+  });
